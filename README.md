@@ -17,7 +17,7 @@ Users can log in, search and filter properties by ratings and cost, and track th
 ## To Run
 ``cd LightBnB/LightBnB_WebApp-master``
 
-npm run local``
+``npm run local``
 
 ## Project Structure
 
@@ -87,8 +87,8 @@ npm run local``
 ##### Users create their own listings
 ![Create Listing](https://github.com/nahcg/lightBnB/blob/master/images/createlisting.png)
 
-![User's Own Listings](https://github.com/nahcg/lightBnB/blob/master/images/mylisting.png)
 ##### Users can track their own listings
+![User's Own Listings](https://github.com/nahcg/lightBnB/blob/master/images/mylisting.png)
 
 ##### Users can track their own reservations
 ![User's Own Reservations](https://github.com/nahcg/lightBnB/blob/master/images/myreservations.png)
