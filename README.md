@@ -70,19 +70,19 @@ Users can log in, search and filter properties by ratings and cost, and track th
 
 ## Project Screenshots
 
-### Users can sign up or sign in to get access to search and view their own listings and reservations
+##### Users can sign up or sign in to get access to search and view their own listings and reservations
 
 ![Search](https://github.com/nahcg/lightBnB/blob/master/images/search.png)
-#### Search function allows users to filter on cost, ratings and location
+##### Search function allows users to filter on cost, ratings and location
 
 ![Filtered Search Results](https://github.com/nahcg/lightBnB/blob/master/images/filteredsearchresult.png)
-### Filtered search results
+##### Filtered search results
 
 ![Create Listing](https://github.com/nahcg/lightBnB/blob/master/images/createlisting.png)
-### Users create their own listings
+##### Users create their own listings
 
 ![User's Own Listings](https://github.com/nahcg/lightBnB/blob/master/images/mylisting.png)
-### Users can track their own listings
+##### Users can track their own listings
 
 ![User's Own Reservations](https://github.com/nahcg/lightBnB/blob/master/images/myreservations.png)
 ### Users can track their own reservations
