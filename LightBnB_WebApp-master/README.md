@@ -1,5 +1,15 @@
 # LightBnB
 
+LightBNB is a simple AirBNB clone. It uses Javascript, Express, and PostgreSQL. Users can log in, search and filter properties by ratings and cost, and track their own properties and reservations.
+
+## Dependencies
+
+  *"bcrypt": "^3.0.6",
+  *"cookie-session": "^1.3.3",
+  *"express": "^4.17.1",
+  *"nodemon": "^1.19.1",
+  *"pg": "^8.11.1"
+
 ## Project Structure
 
 ```
@@ -53,3 +63,13 @@
 * `routes` contains the router files which are responsible for any HTTP requests to `/users/something` or `/api/something`. 
 * `styles` contains all of the sass files. 
 * `server.js` is the entry point to the application. This connects the routes to the database.
+
+## Project Screenshots
+
+Users can sign up or sign in to get access to search and view their own listings and reservations
+
+![Search](https://github.com/nahcg/lightBnB/blob/master/images/search.png)
+![Filtered Search Results](https://github.com/nahcg/lightBnB/blob/master/images/filteredsearchresult.png)
+![Create Listing](https://github.com/nahcg/lightBnB/blob/master/images/createlisting.png)
+![User's Own Listings](https://github.com/nahcg/lightBnB/blob/master/images/mylisting.png)
+![User's Own Reservations](https://github.com/nahcg/lightBnB/blob/master/images/myreservations.png)
