@@ -3,12 +3,13 @@
 LightBNB is a simple AirBNB clone. It uses Javascript, Express, and PostgreSQL. Users can log in, search and filter properties by ratings and cost, and track their own properties and reservations.
 
 ## Dependencies
-
-  *"bcrypt": "^3.0.6",
-  *"cookie-session": "^1.3.3",
-  *"express": "^4.17.1",
-  *"nodemon": "^1.19.1",
-  *"pg": "^8.11.1"
+```
+  "bcrypt": "^3.0.6",
+  "cookie-session": "^1.3.3",
+  "express": "^4.17.1",
+  "nodemon": "^1.19.1",
+  "pg": "^8.11.1"
+```
 
 ## Project Structure
 
