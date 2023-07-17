@@ -14,6 +14,10 @@ Users can log in, search and filter properties by ratings and cost, and track th
   "pg": "^8.11.1"
 ```
 
+## To Run
+``cd LightBnB/LightBnB_WebApp-master``
+``npm run local``
+
 ## Project Structure
 
 ```
