@@ -16,7 +16,8 @@ Users can log in, search and filter properties by ratings and cost, and track th
 
 ## To Run
 ``cd LightBnB/LightBnB_WebApp-master``
-``npm run local``
+
+npm run local``
 
 ## Project Structure
 
@@ -75,18 +76,19 @@ Users can log in, search and filter properties by ratings and cost, and track th
 ## Project Screenshots
 
 ##### Users can sign up or sign in to get access to search and view their own listings and reservations
+![Sign in](https://github.com/nahcg/lightBnB/blob/master/images/Sign%20in.png)
 
-![Search](https://github.com/nahcg/lightBnB/blob/master/images/search.png)
 ##### Search function allows users to filter on cost, ratings and location
+![Search](https://github.com/nahcg/lightBnB/blob/master/images/search.png)
 
-![Filtered Search Results](https://github.com/nahcg/lightBnB/blob/master/images/filteredsearchresult.png)
 ##### Filtered search results
+![Filtered Search Results](https://github.com/nahcg/lightBnB/blob/master/images/filteredsearchresult.png)
 
-![Create Listing](https://github.com/nahcg/lightBnB/blob/master/images/createlisting.png)
 ##### Users create their own listings
+![Create Listing](https://github.com/nahcg/lightBnB/blob/master/images/createlisting.png)
 
 ![User's Own Listings](https://github.com/nahcg/lightBnB/blob/master/images/mylisting.png)
 ##### Users can track their own listings
 
+##### Users can track their own reservations
 ![User's Own Reservations](https://github.com/nahcg/lightBnB/blob/master/images/myreservations.png)
-### Users can track their own reservations
