@@ -3,6 +3,7 @@ const users = require("./json/users.json");
 
 const { Pool } = require('pg');
 
+//create a new pool with configuration
 const pool = new Pool({
   user: 'labber',
   password: '123',
@@ -89,14 +90,14 @@ const addUser = (user) => {
  * @param {string} guest_id The id of the user.
  * @return {Promise<[{}]>} A promise to the reservations.
  */
-const getAllReservations = function (guest_id, limit = 10) {
+const getAllReservations = function(guest_id, limit = 10) {
   return pool
   //query lightbnb database for reservations associated with a specific user
-    .query(`SELECT reservations.*, properties.*
+    .query(`SELECT reservations.*, properties.*, avg(property_reviews.rating) AS average_rating
     FROM reservations JOIN properties ON properties.id = reservations.property_id 
     JOIN property_reviews ON property_reviews.property_id = properties.id 
     WHERE reservations.guest_id = $1
-    GROUP BY reservations.id, properties.id 
+    GROUP BY reservations.id, properties.id
     ORDER BY reservations.start_date 
     LIMIT $2;`, [guest_id, limit])
     .then((result) => {
@@ -206,10 +207,10 @@ const getAllProperties = (options, limit = 10) => {
   };
   
 
-  // 5
+  // log SQL query and result to console
   console.log(queryString, queryParams);
 
-  // 6
+  // return 
   return pool.query(queryString, queryParams)
     .then((result) => {
       console.log(result.rows);
